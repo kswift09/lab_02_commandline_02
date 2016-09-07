@@ -174,7 +174,7 @@ unzip mtec1002-lab-02.zip
 Copy and paste the output below.
 ----------
 
-
+books	logs	web
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -185,6 +185,13 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 Copy and paste the output below.
 ----------
 
+Adlm			MPLABXProjects		isus
+Adobe			Movies			mtec1002-lab-02
+Applications		Music			mtec1002-lab-02.zip
+Desktop			Pictures		pymel.log
+Documents		Public			stuff
+Downloads		Things			xgen
+Library			__MACOSX
 
 
 ==========
@@ -196,7 +203,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+hello.txt
 
 
 ==========
@@ -207,7 +214,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
+a stuff
+a stuff/hello.txt
 
 ==========
 19. List the files in the directory you're currently in (which should be home).  
